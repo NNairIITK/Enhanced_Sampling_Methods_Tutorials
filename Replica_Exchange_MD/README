@@ -7,7 +7,7 @@
                       
              USAGE:  sh remd_setup.sh
              
-             Requirements:  Plumed and Gromacs should be instakked with mpi
+             Requirements:  Plumed and Gromacs should be installed with mpi
                             gfortran, gnuplot
                           
              
@@ -17,9 +17,13 @@
              It will create following directories and stores related files in those directories:
              
              INITIAL_STRUCTURES:   Build the initial structures( gro & top) files
-             MIN : Does small energy minimization run
+             MIN : write necessary input files and does the energy minimization.
              REMD: Prepare the input files for running REMD and Runs simulation for 2ns with 4 replica.
-             ANALYSIS: This script also does basic analysis part.
+             ANALYSIS: This script also does basic analysis and stores the plots in this directory.
+             
+             
+             Note: This script uses the geometric progression to generate the required temperatures. 
+             
              
              
              

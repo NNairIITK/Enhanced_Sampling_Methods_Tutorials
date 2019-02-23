@@ -1,1 +1,29 @@
-Needs to be updated......!
+##  Tutorial on Replica Exchange Molecular Dynamics (t-REMD)
+
+            Authour:  Anji Babu Kapakayala
+                      C/O Prof. Nisanth N. Nair
+                      Dept. of Chemistry
+                      IIT Kanpur, India.
+                      
+             USAGE:  sh remd_setup.sh
+             
+             Requirements:  Plumed and Gromacs should be instakked with mpi
+                            gfortran, gnuplot
+                          
+             
+             Description:  This script will generate required input files and run the remd simulation
+             for alanine dipeptide in vacuum using gromacs and plumed (optional) for 2 ns.
+             
+             It will create following directories and stores related files in those directories:
+             
+             INITIAL_STRUCTURES:   Build the initial structures( gro & top) files
+             MIN : Does small energy minimization run
+             REMD: Prepare the input files for running REMD and Runs simulation for 2ns with 4 replica.
+             ANALYSIS: This script also does basic analysis part.
+             
+             
+             
+            ** More Details will be updated Soon.......!!!!
+                Sorry for inconvience.
+                anji babu
+          

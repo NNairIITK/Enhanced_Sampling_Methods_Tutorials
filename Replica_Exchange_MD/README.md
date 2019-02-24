@@ -18,7 +18,7 @@
    **Requirements**:     
    
        Latest versions of Plumed and Gromacs should be installed with mpi
-       gfortran, gnuplot, ala-dipeptide.pdb
+       gfortran, gnuplot, ala_di-peptide.pdb
                           
              
    **Description** :   

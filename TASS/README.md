@@ -1,5 +1,5 @@
 
-# Go though the below link fot TASS Tutorial
+# Temperature Accelerated Sliced Sampling (TASS)
 
 **Authour:**
 

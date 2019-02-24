@@ -1,5 +1,5 @@
-#  Bash script to perform Replica Exchange Molecular Dynamics (t-REMD) simulation 
-#                       on alanine dipeptide in vacuum.
+
+**Bash script to perform Replica Exchange Molecular Dynamics (t-REMD) simulation on alanine dipeptide in vacuum.**
 
    **Authour:**
    

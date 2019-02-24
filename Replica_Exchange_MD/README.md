@@ -28,10 +28,10 @@
              
    **The following directories will be generated:**
              
-       INITIAL_STRUCTURES:   Contains the topology(top) & coordinate(gro) files which are made by using gmx2pdb.
-       MIN               :   Contains files related to the energy minimization.
-       REMD              :   Contains files after running REMD simulation for 2ns each replica.
-       ANALYSIS          :   Contains post processed files and plots.
+       -INITIAL_STRUCTURES:   Contains the topology(top) & coordinate(gro) files which are made by using gmx2pdb.
+       -MIN               :   Contains files related to the energy minimization.
+       -REMD              :   Contains files after running REMD simulation for 2ns each replica.
+       -ANALYSIS          :   Contains post processed files and plots.
              
              
    **Note:**

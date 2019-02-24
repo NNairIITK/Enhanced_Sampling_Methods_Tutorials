@@ -1,15 +1,20 @@
-#  Bash script to perform Replica Exchange Molecular Dynamics (t-REMD) simulation on alanine dipeptide in vacuum.
+#  Bash script to perform Replica Exchange Molecular Dynamics (t-REMD) simulation 
+#                       on alanine dipeptide in vacuum.
 
-            Authour:  Anji Babu Kapakayala
-                      C/O Prof. Nisanth N. Nair
-                      Dept. of Chemistry
-                      IIT Kanpur, India.
+   **Authour:**
+   
+       Anji Babu Kapakayala
+       C/O Prof. Nisanth N. Nair
+       Dept. of Chemistry
+       IIT Kanpur, India.
+       
                       
    **USAGE :**    
                          
        sh remd_setup.sh                            [ default runs with plumed ]
        sh remd_setup.sh --without-plumed           [ Runs without Plumed i.e Uses only Gromacs ] 
-             
+       
+       
    **Requirements**:     
    
        Latest versions of Plumed and Gromacs should be installed with mpi
@@ -29,9 +34,11 @@
        ANALYSIS          :   Contains post processed files and plots.
              
              
-   **Note: This script uses the geometric progression to generate the required temperatures.** 
-                 
-             
+   **Note:**
+           
+       This script uses the geometric progression to generate the temperatures.
+           
+                    
    **More Details will be updated Soon.......!!!!**
                 
          Cheers!!!!

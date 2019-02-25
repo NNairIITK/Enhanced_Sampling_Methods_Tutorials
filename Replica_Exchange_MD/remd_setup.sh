@@ -5,7 +5,10 @@
 #                      Dept. of Chemistry
 #                      IIT Kanpur, India.
 #                      
-#             USAGE:  sh remd_setup.sh
+#
+#             USAGE:  sh remd_setup.sh                        [ default runs with plumed ]
+#                     sh remd_setup.sh --without-plumed       [ Runs without Plumed i.e Uses only Gromacs ] 
+
 #             
 #             Requirements:  Plumed and Gromacs should be installed with mpi
 #                            gfortran, gnuplot

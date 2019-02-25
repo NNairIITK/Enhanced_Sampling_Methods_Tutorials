@@ -1,7 +1,7 @@
 
 **Bash script to perform Replica Exchange Molecular Dynamics (t-REMD) simulation on alanine dipeptide in vacuum.**
 
-* Authour:
+* **Authour:**
    
        Anji Babu Kapakayala
        C/O Prof. Nisanth N. Nair

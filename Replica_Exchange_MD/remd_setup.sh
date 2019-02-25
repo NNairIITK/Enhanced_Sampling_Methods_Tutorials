@@ -369,10 +369,14 @@ grep " -plumed" temp &>/dev/null
     echo "Checking plumed: Plumed patched with Gromacs"
   else
     echo "Checking plumed: Plumed did NOT patched with Gromacs"
+    echo "Exiting..."
+    exit
   fi
 rm temp
 else
 echo "Checking plumed: Plumed NOT found"
+echo "Exiting...!"
+exit
 fi
 }
 #-----------------------------------------------#
@@ -382,6 +386,8 @@ if [ $? -eq 0 ];then
 echo "Checking Gromacs: Found"
 else
 echo "Checking Gromacs: Gromacs NOT found"
+echo "Exiting..!"
+exit
 fi
 }
 #----------------------------------------------#

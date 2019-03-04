@@ -38,9 +38,9 @@
            
       This script uses the geometric progression to generate the temperatures.
       
- * REMD TUTORIIAL:
+ * **REMD TUTORIIAL:**
  
- [Click me for the Tutorial] (https://github.com/NNairIITK/Enhanced_Sampling_Methods_Tutorials/blob/master/Replica_Exchange_MD/REMD_Tutorial.pdf)
+ [Click me for the Tutorial](https://github.com/NNairIITK/Enhanced_Sampling_Methods_Tutorials/blob/master/Replica_Exchange_MD/REMD_Tutorial.pdf)
                     
    **More Details will be updated Soon.......!!!!**
                 

@@ -1,9 +1,10 @@
 
-# Temperature Accelerated Molecular Dynamics (TAMD) & PBMETAD
+# Temperature Accelerated Molecular Dynamics (TAMD) 
+#                   & PBMETAD
 
 **Authour:**
 
-    Shivani Verma
+    Abhinav Gupta
     C/O Prof. Nisanth Nair
     Dept. of Chemistry
     IIT Kanour, India

@@ -1,6 +1,12 @@
 
 **Bash script to perform Replica Exchange Molecular Dynamics (t-REMD) simulation on alanine dipeptide in vacuum.**
 
+     
+ * **REMD TUTORIAL:**
+ 
+ 
+ [Click me for the Tutorial](https://github.com/NNairIITK/Enhanced_Sampling_Methods_Tutorials/blob/master/Replica_Exchange_MD/REMD_Tutorial.pdf)
+       
 * **Authour:**
    
       Anji Babu Kapakayala
@@ -38,12 +44,7 @@
            
       This script uses the geometric progression to generate the temperatures.
       
-      
- * **REMD TUTORIAL:**
  
- 
- [Click me for the Tutorial](https://github.com/NNairIITK/Enhanced_Sampling_Methods_Tutorials/blob/master/Replica_Exchange_MD/REMD_Tutorial.pdf)
-       
        
        
    **More Details will be updated Soon.......!!!!**

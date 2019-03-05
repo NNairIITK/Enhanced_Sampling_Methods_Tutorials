@@ -1,6 +1,13 @@
 
 **Bash script to perform Replica Exchange Solute Scaling (REST2) simulation on alanine dipeptide in explicit solvet.**
 
+     
+ * **REST2 TUTORIAL:**
+ 
+ 
+ [Click me for the Tutorial](https://github.com/NNairIITK/Enhanced_Sampling_Methods_Tutorials/blob/master/Replica_Exchange_MD/REMD_Tutorial.pdf)
+       
+
 * **Authour:**
    
       Anji Babu Kapakayala
@@ -40,12 +47,7 @@
       This script uses the geometric progression to generate the effective temperature range for obtaining 
       the lamda values.
       
-      
- * **REST2 TUTORIAL:**
  
- 
- [Click me for the Tutorial](https://github.com/NNairIITK/Enhanced_Sampling_Methods_Tutorials/blob/master/Replica_Exchange_MD/REMD_Tutorial.pdf)
-       
        
        
    **More Details will be updated Soon.......!!!!**

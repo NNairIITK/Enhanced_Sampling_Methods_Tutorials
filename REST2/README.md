@@ -5,7 +5,7 @@
  * **REST2 TUTORIAL:**
  
  
- [Click me for the Tutorial](https://github.com/NNairIITK/Enhanced_Sampling_Methods_Tutorials/blob/master/Replica_Exchange_MD/REMD_Tutorial.pdf)
+ [Click me for the Tutorial](https://github.com/NNairIITK/Enhanced_Sampling_Methods_Tutorials/blob/master/REST2/REST2_Tutorial.pdf)
        
 
 * **Authour:**

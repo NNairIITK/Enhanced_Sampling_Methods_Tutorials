@@ -187,6 +187,9 @@ gnuplot plot_psis.gnp
 gnuplot plot_phis.gnp
 gnuplot plot_phi-psi.gnp
 
+gnuplot plot_PE.gnp
+gnuplot plor_temp.gnp
+
 cp *.png ../ANALYSIS/
 cd ..
 }

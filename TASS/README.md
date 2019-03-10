@@ -40,9 +40,10 @@
 
             On the fly, It will create following directories and stores related files in those directories:
              
-                * MIN : write necessary input files and does the energy minimization.
-                * NVT : Writes the required input files and performs equilibration here.
-	            * US  : Performs the Umbrella Sampling Simulations here in respective directory for every CV value
+                    * MIN : write necessary input files and does the energy minimization.
+                    * NVT : Writes the required input files and performs equilibration here.
+	            * US  : Performs the Umbrella Sampling Simulations here in respective directory for every
+		           CV value
 	            * TASS:  Runs TASS Simulations in respective sub directories
 	            * TASS/INPUTS: Stores all required input files here
 	            * TASS/TASS_*: Respective directory for umbrella window        

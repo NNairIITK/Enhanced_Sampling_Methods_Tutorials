@@ -33,7 +33,7 @@
                    
             * MIN       : write necessary input files and does the energy minimization.
             * NVT       : Writes the required input files and performs equilibration here.
-            * US        : Performs the Umbrella Sampling Simulations here in respective directory for every CV value
+            * US        : Performs the USa Simulations here in respective directory for every CV value
             * US/INPUTS : Stores all required input files here        
             * US/ANALYSIS: Writes all required inputs here to do analysis 
             * US/PROB   : Stores all the  probabilities corresponding to all the umbrella windows here

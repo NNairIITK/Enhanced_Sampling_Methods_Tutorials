@@ -1,9 +1,5 @@
 
-**Enhaced_Sampling_Methods_Tutorials**
-
-
-
-
+#    Enhaced Sampling Methods Tutorials 
 
 
 * Molecular Dynamics(**MD**):     Will be updated soon
@@ -22,8 +18,7 @@
     
     
   
-    
-** Keep looking at this page for more updates** 
+**Keep looking at this page for more updates** 
         
         Cheers !!!
         Anji Babu

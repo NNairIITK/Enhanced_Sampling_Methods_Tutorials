@@ -6,9 +6,9 @@
 
 
 
-* Molecular Dynamics([**MD**](https://github.com/NNairIITK/Enhanced_Sampling_Methods_Tutorials/tree/master/Metadynamics)                      ):     Will be updated soon
+* Molecular Dynamics(**MD**):     Will be updated soon
 * Umbrella Sampling([**US**](https://github.com/NNairIITK/Enhanced_Sampling_Methods_Tutorials/tree/master/Umbrella_Sampling))                         :     will be updated soon 
-* Metadynamics(**METAD**)                           :     Will be updated soon
+* Metadynamics([**METAD**](https://github.com/NNairIITK/Enhanced_Sampling_Methods_Tutorials/tree/master/Metadynamics))                           :     Will be updated soon
 * Replica Exchange MD([**REMD**](https://github.com/NNairIITK/Enhanced_Sampling_Methods_Tutorials/tree/master/Replica_Exchange_MD))                                                         
                                                     :     Updated
 * Well Sliced Metadynamics(**WS-METAD**)            :     Will be updated soon

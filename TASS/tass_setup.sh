@@ -936,9 +936,9 @@ cat >>metad.f<<EOF
       END DO
       WRITE(*,'(A)')'CV values written in cv.dat'
 !
-      IF(.NOT.inpgrid)
-     &  CALL get_gridmin_max(16,gridmin1,gridmax1,griddif1,
-     &                          gridmin2,gridmax2,griddif2)
+!     IF(.NOT.inpgrid)
+!     &  CALL get_gridmin_max(16,gridmin1,gridmax1,griddif1,
+!     &                          gridmin2,gridmax2,griddif2)
 
 
       alpha=bias_fact/(bias_fact-1.D0)

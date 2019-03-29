@@ -13,10 +13,6 @@
 * Temperature Accelerated Sliced Sampling([**TASS**](https://github.com/NNairIITK/Enhanced_Sampling_Methods_Tutorials/tree/master/TASS)) :     Updated
 * Temperature Accelerated Molecular Dynamics([**TAMD**](https://github.com/NNairIITK/Enhanced_Sampling_Methods_Tutorials/tree/master/TAMD))                                 :     Updated
     
-    
-    ![photo](https://lh5.googleusercontent.com/F66yOQwN-Vs2OnPFFtVWzLsK8RWS3E2ldUTwlXg86AlfM0HDuNrmYt40nBAx-xXchSbQBmO5nJntIa1M1P2W_l6jlDaB2a7cbXBhWPLjdkjhBzwWQfo=w472)
-    
-    
   
 **Keep looking at this page for more updates** 
         

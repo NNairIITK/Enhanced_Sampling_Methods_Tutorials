@@ -12,7 +12,7 @@
                                                     :     Updated
 * Temperature Accelerated Sliced Sampling([**TASS**](https://github.com/NNairIITK/Enhanced_Sampling_Methods_Tutorials/tree/master/TASS)) :     Updated
 * Temperature Accelerated Molecular Dynamics([**TAMD**](https://github.com/NNairIITK/Enhanced_Sampling_Methods_Tutorials/tree/master/TAMD))                                 :     Updated
-    
+ * Bias Exchange Metadynamics(**BE-MetaD**): Will be updated soon   
   
 **Keep looking at this page for more updates** 
         

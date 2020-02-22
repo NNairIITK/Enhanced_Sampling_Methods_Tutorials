@@ -1,6 +1,13 @@
 ! 
 ! Fortran program to re-construct the 2D free energy profile for REST2 Simulation
 !
+! Authour: ANJI BABU KAPAKAYALA
+!          C/O Prof. Nisanth Nair
+!          Dept. of Chemistry
+!	   IIT Kanpur, India.
+!          anjibabu480@gmail.com
+!
+!
 ! Definitions of variables used in this code
 ! 
 ! T          = Physical system temperature (300 K)

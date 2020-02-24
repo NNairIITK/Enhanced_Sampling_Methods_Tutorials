@@ -6,6 +6,7 @@
 !          Dept. of Chemistry
 !	   IIT Kanpur, India.
 !          anjibabu480@gmail.com
+!            (  24/02/2020 )
 !
 !
 ! Definitions of variables used in this code
@@ -23,8 +24,11 @@
 ! griddiff2   = The witdh of bin along CV2
 !
 !
-!  USAGE: COLVAR.0                 #Use ground replica to reconstruct FES
-!         sed -i '^#/d' COLVAR     #Remove all lines starts with #
+!  USAGE: COLVAR.0                    #Use ground replica to reconstruct FES
+!         sed -i '/^#/d' COLVAR.0     #Remove all lines starts with '#'
+!         gfortran FES_Reconstruction_REST2.f90 -o fes_rest2.x
+!         ./fes_rest2.x
+!
 PROGRAM fes_rest2
 IMPLICIT NONE
 REAL*8 :: gridmin1, gridmax1, griddiff1, gridmin2, gridmax2, griddiff2
@@ -35,6 +39,7 @@ REAL*8, ALLOCATABLE :: cv1(:), cv2(:), vbias(:),s1,s2, s3, s4
 INTEGER ::  md_steps, i, t_min, t_max
 INTEGER :: i_s1, i_s2, i_s3, i_s4, nbin1, nbin2
 INTEGER :: index1, index2,i_md
+CHARACTER(20)::periodicity
 
 REAL*8, PARAMETER :: kb=1.9872041E-3 !kcal K-1 mol-1
 REAL*8, PARAMETER :: kj_to_kcal = 0.239006
@@ -53,6 +58,7 @@ IF(t_max.gt.md_steps)STOP '!!ERROR: t_max > total MD steps'
 
 read(1,*) gridmin1, gridmax1, griddiff1
 read(1,*) gridmin2, gridmax2, griddiff2
+read(1,*) periodicity
 
 ! Keeping no of steps as maximum steps mentioned
 md_steps = t_max
@@ -78,10 +84,17 @@ ALLOCATE(cv1(md_steps),cv2(md_steps))
 
 DO i_md=1,md_steps
  READ(11,*) dum,cv1(i_md),cv2(i_md)
+
+   IF(periodicity .eq. "periodic") THEN
+     PRINT*, "Given CVS are Periodic"
      IF( cv1(i_md) .gt.  3.14d0)  cv1(i_md) = cv1(i_md) - 6.28d0
      IF( cv1(i_md) .lt. -3.14d0 ) cv1(i_md) = cv1(i_md) + 6.28d0
      IF( cv2(i_md) .gt.  3.14d0)  cv2(i_md) = cv2(i_md) - 6.28d0
      IF( cv2(i_md) .lt. -3.14d0 ) cv2(i_md) = cv2(i_md) + 6.28d0
+   ELSE
+   PRINT*, "Given CVS are Non-Periodic"
+   ENDIF
+
 END DO
 
 nbin1 = NINT((gridmax1-gridmin1)/griddiff1)+1

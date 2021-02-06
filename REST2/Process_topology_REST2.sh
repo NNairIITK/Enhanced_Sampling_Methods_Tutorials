@@ -6,6 +6,7 @@
 #             IIT Kanpur, India.
 #
 #    USAGE : bash Process_topology_REST2.sh topol.top
+#    Equilant Command using vim   :%s/\%V /_/g
 #-------------------------------------------------------------------------------#
 #!/bin/bash
 infile="$1"

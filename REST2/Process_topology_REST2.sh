@@ -6,7 +6,9 @@
 #             IIT Kanpur, India.
 #
 #    USAGE : bash Process_topology_REST2.sh topol.top
-#    Equilant Command using vim   :%s/\%V /_/g
+#
+#    Equilant command in vim: :%s/\%V /_/g
+#
 #-------------------------------------------------------------------------------#
 #!/bin/bash
 infile="$1"
@@ -15,7 +17,7 @@ resid=0
 
 #---> Setting output filename
 fname=`echo "$infile"|cut -d "." -f1`
-outfile="${fname}_processed.top"
+outfile="${fname}_hot.top"
 
 #---> Make lines starts with * to ;*
 sed -i "s/\*/;\*/g" $infile
@@ -47,16 +49,16 @@ if [ "$line" != "" ];then
             if [ "$res" != 'residue' ] ;then
                echo $C1$'\t'${C2}_$'\t'$resid_new$'\t'$C4$'\t'$C5$'\t'$C6$'\t'$C7$'\t'$C8$'\t'$C9$'\t'$C10$'\t' $C11  >> $outfile
             else
-               echo $line >> $outfile
+               echo "$line" >> $outfile
             fi
       else
-	 echo $line >> $outfile
+	 echo "$line" >> $outfile
       fi
    else
-      echo $line >> $outfile
+      echo "$line" >> $outfile
    fi
 else
-echo $line >> $outfile
+echo "$line" >> $outfile
 fi
 
 first=`echo $line|awk '{print $1}'`
